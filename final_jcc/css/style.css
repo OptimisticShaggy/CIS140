@@ -1,0 +1,79 @@
+/*
+Colors
+Red A7414A
+Black 282726
+Teal 6A8A82
+Gold A37C27
+Brown 563838
+*/
+
+/*
+=====Outline=====
+*/
+
+*
+{
+	text-shadow: 3px 3px 10px rgb(163, 124, 39), -3px -3px 10px rgb(163, 124, 39);
+}
+
+html
+{
+
+	background: radial-gradient(ellipse at center, #A7414A 0%, #A37C27 46%, #563838 100%);
+	font-weight: bolder;
+}
+
+
+
+.box
+{
+	
+	background: center no-repeat fixed padding-box rgba(86, 56, 56, 0.55);
+	box-shadow: inset 3px 0px 15px 5px rgba(0,0,0,0.38), inset 0px 3px 15px 5px rgba(0,0,0,0.38), inset 3px 3px 15px 5px rgba(0,0,0,0.38), inset -3px 0px 15px 5px rgba(0,0,0,0.38), inset 0px -3px 15px 5px rgba(0,0,0,0.38), inset -3px -3px 15px 5px rgba(0,0,0,0.38), 3px 0px 15px 5px rgba(0,0,0,0.38), 0px 3px 15px 5px rgba(0,0,0,0.38), 3px 3px 15px 5px rgba(0,0,0,0.38), -3px 0px 15px 5px rgba(0,0,0,0.38), 0px -3px 15px 5px rgba(0,0,0,0.38), -3px -3px 15px 5px rgba(0,0,0,0.38);
+	border-radius: 30px;
+	padding: 15px;
+}
+
+table
+{
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+
+/*
+Buttons
+*/
+button, .box_styled
+{
+	background-color: #A7414A;
+	color: #563838;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+
+/*
+Misc
+*/
+p
+{
+	text-align: center;
+	font-size: .7em;
+}
+
+.strike
+{
+	text-decoration: line-through;
+}
+
+.img_resize
+{
+	width: 500px;
+	height: 500px;
+}
+
+.small_list
+{
+	font-size: .7em;
+}

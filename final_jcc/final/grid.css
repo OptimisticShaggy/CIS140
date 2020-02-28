@@ -1,0 +1,67 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
+	place-content: space-evenly;
+	grid-gap: 50px;
+}
+
+/*Heading*/
+header
+{
+	justify-self: center;
+	text-align: center;
+	font-size: 0.8em;
+	grid-column: span 3;
+	grid-row: 1;
+}
+
+/*
+Navigation Bar
+*/
+nav
+{
+	font-size: 1.2em;
+	grid-column: span 3;
+	grid-row: 2;
+	text-align: center;
+	place-self: stretch;
+}
+
+/*
+---Left Side---
+*/
+div_left
+{
+	font-size: 1.2em;
+	margin: auto;
+	grid-column: 1 / 1;
+	grid-row: 3;
+	text-align: center;
+	place-self: stretch;
+}
+
+/*
+---Right Side---
+*/
+div_right
+{
+	font-size: 1.2em;
+	margin: auto;
+	grid-column: 3 / 3;
+	grid-row: 3;
+	text-align: center;
+	place-self: stretch;
+}
+
+/*
+======Footer=====
+---Bottom---
+*/
+footer
+{
+	font-size: 1.2em;
+	grid-column: span 3;
+	grid-row: 4;
+	place-self: stretch;
+}

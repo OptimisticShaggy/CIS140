@@ -1,0 +1,23 @@
+/*
+mobile Devices
+*/
+
+@media (max-width: 700px) 
+{
+	body
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.box
+	{
+		margin: 5px;
+	}
+	
+	img
+	{
+		max-height: 150px;
+		max-width: 150px;
+	}
+}

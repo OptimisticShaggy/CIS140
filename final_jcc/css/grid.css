@@ -1,0 +1,77 @@
+body {
+	display: grid;
+	place-content: space-evenly;
+	
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
+	grid-gap: 125px;
+}
+
+/*Heading*/
+header
+{
+	text-align: center;
+	justify-self: center;
+	font-size: 0.8em;
+	grid-column: 1 / span 3;
+	grid-row: 1;
+}
+
+/*
+=====Navigation Bar=====
+---Left Side---
+*/
+nav
+{
+	font-size: 1.2em;
+	grid-column: 1;
+	grid-row: 2 / span 3;
+	place-self: center;
+	text-align: center;
+	place-self: stretch;
+}
+
+/*
+======Section=====
+---Right Side---
+*/
+section
+{
+	font-size: 1.2em;
+	margin: auto;
+	grid-column: 3;
+	grid-row: 2 / 2;
+	place-self: stretch;
+	text-align: center;
+}
+
+/*
+======Article=====
+---Right Side---
+*/
+article
+{
+	font-size: 1.2em;
+	margin: auto;
+	grid-column: 3;
+	grid-row: 3 / 3;
+	place-self: stretch;
+	text-align: center;
+}
+
+/*
+======Footer=====
+---Bottom---
+*/
+footer
+{
+	font-size: 1.2em;
+	grid-column: span 3;
+	grid-row: 5;
+	place-self: stretch;
+}
+
+fieldset
+{
+	border-width: 0;
+}

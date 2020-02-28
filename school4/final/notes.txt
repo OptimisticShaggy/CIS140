@@ -1,0 +1,29 @@
+Web Design & Development Course Project (100 pts)
+
+Create a web site for an organization, business, etc of your choice or create a personal web site.  Be creative and have some fun with this!!! This could turn into a professional portfolio piece or actually become a live site.
+This site should encompass all the topics we have covered in this class and must be coded completely in HTML and JavaScript.
+•	Minimum of 3 linked web pages with a responsive design for mobile, tablet, and desktop
+•	Consistent navigation elements on each page
+•	Consistent style - Inline styles, embedded style and external style sheet
+o	At least 1 style setting must include formatting for
+	id
+	class 
+	pseudo class
+•	Hyperlinks
+o	To other pages
+o	Within current page
+o	Contact links
+•	Add Images to each page
+•	Add a table to one page
+•	Add an unordered or ordered list to at least one page within your site
+•	Add a Form – with validation
+•	Add at least one video
+o	Youtube or self-made video
+•	At least 3 Javascript Functions
+o	Date last modified
+o	Scrolling message
+o	Calculated field
+o	Copyright
+•	Social Media links on at least one page
+•	Validate all pages
+•	Include comments in your code
